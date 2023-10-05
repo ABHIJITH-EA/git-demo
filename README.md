@@ -3,3 +3,7 @@
 - when you run `git commit`, Git checksums each subdirectory and stores them as a tree object in the Git repository.Git then creates a commit object that has the metadata and a pointer to the root project tree(snapshot of the content you staged.) so it can re-create that snapshot when needed.
 
 ![A commit and its tree](./resources/commit-and-tree.png)
+
+- If you make some changes and commit again, the next commit stores a pointer to the commit that came immediately before it.
+
+![Commits and their parents](./resources/commits-and-parents.png)
