@@ -2,6 +2,6 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
-	printf("demo repository for learning about git\n");
+	printf("Welcome to demo repository to learn git\n");
 	return EXIT_SUCCESS;
 }
