@@ -7,3 +7,14 @@
 - If you make some changes and commit again, the next commit stores a pointer to the commit that came immediately before it.
 
 ![Commits and their parents](./resources/commits-and-parents.png)
+
+## How to set up remote tracking branch
+We can create local branch and set up the branch to track a remote branch.
+`git checkout -b local-dev --track origin/dev`
+
+`git switch -c local-dev -t origin/dev`
+
+Now we can easily easily fetch the remote work by,
+`git fetch`
+
+`git pull`

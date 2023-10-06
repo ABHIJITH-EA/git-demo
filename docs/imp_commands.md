@@ -18,3 +18,6 @@
 
 > `git add --patch`
 - To partially stage files
+
+> `git log --no-merges <branch1>..<branch2>`
+- Log filter syntax, list the commits that in branch2 but not in branch1
