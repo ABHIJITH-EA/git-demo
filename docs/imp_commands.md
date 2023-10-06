@@ -9,3 +9,6 @@
 
 > `git push <remote> --delete <branch>`
 - Delete remote branch
+
+> `git switch -c <branch-name> -t <remote>/<branch>`
+- This will setup branch wich will start tracking the remote branch.
