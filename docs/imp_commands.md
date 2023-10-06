@@ -12,3 +12,9 @@
 
 > `git switch -c <branch-name> -t <remote>/<branch>`
 - This will setup branch wich will start tracking the remote branch.
+
+> `git branch -a`
+- List all the branch's including remote and local.
+
+> `git add --patch`
+- To partially stage files
