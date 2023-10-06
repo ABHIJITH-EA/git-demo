@@ -4,4 +4,8 @@
 */**/*.out
 *.out
 src/demo
+<<<<<<< HEAD
 .vscode
+=======
+.idea
+>>>>>>> edc8d48 (Update .gitignore)
